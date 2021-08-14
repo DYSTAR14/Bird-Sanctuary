@@ -15,7 +15,7 @@ public class BirdSanctuary {
 		while (exit != 0) {
 			System.out.println("1.Add Bird\n2.Remove Bird\n3.Update Bird" 
 					+ "\n4.Print all Bird\n5.Print Flyable Bird\n"
-					+ "6.Print Swimmable Bird\n7.Print Eating Bird\n0.Exit");
+					+ "6.Print Swimmable Bird\n7.Print Eating Bird\n0.Exit\nHello");
 			System.out.println("\nSelect From Menu");
 			int choice = SC.nextInt();
 
