@@ -1,0 +1,19 @@
+Bird bird = new Bird();
+bird.birdName="Penguin";bird.id="Pen1";bird.colour=Colour.BLACK;
+bird.isflyable=false; bird.isSwimmable=true;
+birdSanctuaryManager.add(bird);
+
+Bird bird1 = new Bird();
+bird1.birdName="Parrot";bird1.id="Par1";bird1.colour=Colour.GREEN;
+bird1.isflyable=true; bird1.isSwimmable=false;
+birdSanctuaryManager.add(bird1);
+
+Bird bird2 = new Bird();
+bird2.birdName="Ostrich";bird2.id="Ost1";bird2.colour=Colour.GREY;
+bird2.isflyable=false; bird2.isSwimmable=true;
+birdSanctuaryManager.add(bird2);
+
+Bird bird3 = new Bird();
+bird3.birdName="Dove";bird3.id="Dov1";bird3.colour=Colour.BLACK;
+bird3.isflyable=true; bird3.isSwimmable=false;
+birdSanctuaryManager.add(bird3);
